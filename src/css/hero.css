@@ -1,9 +1,19 @@
+.hero{
+    background-image: url(../img/main-background.webp);
+    background-position:    center;
+    background-size:        cover;
+    background-repeat:      no-repeat;
+    padding-bottom: 40px;
+}
+
 .title-main{
+    display: block;
     font-size: 64px;
     font-weight: 700;
-    line-height: 1; /* 64px */
+    line-height: 1.0; /* 64px */
     letter-spacing: 0.64px;
     margin-bottom: 10px;
+    max-width: 345px;
 }
 
 .title-main-second{
