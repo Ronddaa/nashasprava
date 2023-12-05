@@ -1,0 +1,49 @@
+.title-main{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1; /* 64px */
+    letter-spacing: 0.64px;
+    margin-bottom: 10px;
+}
+
+.title-main-second{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.p-text-main{
+    font-weight: 500;
+    line-height: 1.5; /* 21px */
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.main-text-span{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.p-text-main-second{
+    display: none;
+}
+
+.main-consultation-btn{
+    display: flex;
+    padding: 13px 32px 12px;
+    background-color: #EED135;
+    border: 0;    
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5; /* 18px */
+    letter-spacing: 0.36px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.wrapper-social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}

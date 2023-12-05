@@ -74,6 +74,7 @@ a {
 
 button {
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 img {
@@ -82,3 +83,6 @@ img {
   height: auto;
 }
 
+h1, h2 {
+  text-transform: uppercase;
+}
