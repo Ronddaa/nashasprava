@@ -1,0 +1,30 @@
+.why-me{
+    position: relative;
+    padding-bottom: 180px;
+    margin-bottom: 160px;
+}
+
+.wrapper-our-plus{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.li-our-plus{
+    background-color: #EED135;
+    padding: 31px 30px;
+    border-radius: 30px;
+    min-height: 250px;
+    display: flex;
+}
+
+.text-our-plus{
+    
+}
+
+.img-car-back{
+    position: absolute;
+    right: 0;
+    margin: 20px 0;
+}
