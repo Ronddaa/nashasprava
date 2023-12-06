@@ -8,3 +8,26 @@
     font-weight: 700;
 }
 
+.wrapper-team-photo{
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+    height: 200px;
+}
+
+.img-about-us-team{
+    position: absolute;
+    border-radius: 30px;
+    max-width: auto;
+    max-height: 160px;
+}
+
+.img-about-us-team-1{
+top: 50px;
+z-index: 2;
+opacity: 0.95;
+}
+
+.img-about-us-team-2{
+    right: 0;
+}
