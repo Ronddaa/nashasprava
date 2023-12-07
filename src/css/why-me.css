@@ -20,7 +20,24 @@
 }
 
 .text-our-plus{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 11px 0 0 11px;
+}
+
+.title-our-plus{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5; /* 27px */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.p-text-our-plus{
+    font-weight: 500;
+    line-height: 1.6; /* 22.4px */
+    letter-spacing: 0.7px;
 }
 
 .img-car-back{
