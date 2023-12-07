@@ -1,5 +1,5 @@
 .moments-buy{
-    background-image: url(../img/car-corner-bmw-wite.webp);
+    background-image: linear-gradient(to bottom, rgb(0 0 0), rgb(0 0 0 / 70%)), url(/img/car-corner-bmw-wite.webp);
     background-position:    center;
     background-size:        cover;
     background-repeat:      no-repeat;
@@ -24,17 +24,24 @@
     border-bottom: 2px dashed #FFF;
 }
 
+.li-moments-buy:last-child{
+    border: none;
+}
+
 .article-moments-buy{
     display: flex;
     gap: 20px;
 }
 
 .title-numbers{
-    padding: 13px;
+    padding: 13px 14px;
     background-color: #EED135;
     border-radius: 15px;
     max-width: 50px;
     max-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .p-text-moments-buy{
