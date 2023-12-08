@@ -1,0 +1,52 @@
+.ul-reviews-comments{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.li-reviews-comments{
+    position: relative;
+    background-color: #FFDE2C;
+    border-radius: 30px;
+    padding: 30px 20px;
+}
+
+.title-user-name{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.p-text-buyed-car{
+    letter-spacing: 0.42px;
+    text-transform: uppercase;  
+    margin-bottom: 40px;
+}
+
+.text-user-comments{
+    line-height: 1.5; /* 21px */
+    letter-spacing: 0.42px;
+    margin-bottom: 110px;
+}
+
+.img-user-comments{
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.sent-comments-btn{
+    background-color: #FFDE2C;    
+    color: #000;
+    border: none;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5; /* 18px */
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    padding: 13px 65px;
+    display: flex;
+    margin: 0 auto;
+}
