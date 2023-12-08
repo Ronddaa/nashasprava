@@ -1,0 +1,21 @@
+.just-form{
+    background-image: linear-gradient(to bottom, rgb(191 190 190), rgb(192 192 192 / 70%)), url(../img/half-car-alfa.webp);
+    background-position:    center;
+    background-size:        cover;
+    background-repeat:      no-repeat;
+    padding: 40px 15px 30px;
+}
+
+.title-just-form{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7; /* 34px */
+    letter-spacing: 0.6px;
+    text-transform: none;
+    margin-bottom: 60px;
+}
+
+.span-just-form-text{
+    font-weight: 700;
+    text-transform: uppercase;
+}
