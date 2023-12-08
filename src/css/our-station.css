@@ -1,0 +1,19 @@
+.p-text-our-station{
+    line-height: 1.7; /* 23.8px */
+    letter-spacing: 0.42px;
+    margin-bottom: 40px;
+}
+
+.span-our-station{
+    font-weight: 800;
+}
+
+.link-to-instagram{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+    margin-bottom: 40px;
+}
