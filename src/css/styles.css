@@ -39,3 +39,14 @@ section{
   margin-bottom: 50px;
 }
 
+@media (min-width: 1157px){
+  .container{
+    max-width: 1920px;
+    padding: 0 50px;
+  }
+
+  section{
+    margin-bottom: 100px;
+  }
+
+}

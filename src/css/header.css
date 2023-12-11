@@ -2,6 +2,16 @@ header{
     background-image: linear-gradient(to bottom, rgb(174 174 174 / 70%), rgb(255 255 255 / 50%));
 }
 
+.img-logo-desc{
+    display: none;
+}
+
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-nav{
     display: none;
     padding: 30px 0;
@@ -9,11 +19,42 @@ header{
 
 .a-phone-link{
     display: none;
-    padding: 30px 0;
 }
 
-.wrapper-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media (min-width: 1157px) {
+
+    .img-logo-desc{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .img-logo-phone{
+        display: none;
+    }
+
+    .header-nav{
+        display: block;
+    }
+
+    .ul-nav{
+        display: flex;
+        gap: 40px;
+    }
+
+    .a-nav-link{
+        font-size: 20px;
+        padding: 30px 0;
+    }
+
+    .a-phone-link{
+        display: flex;
+        gap: 10px;
+        padding: 12px 30px;
+        border: 1px solid;
+        border-radius: 30px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
 }
