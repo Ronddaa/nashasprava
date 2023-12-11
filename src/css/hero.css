@@ -6,6 +6,10 @@
     padding: 40px 0;
 }
 
+.wrapper-p-textpmain-desc{
+    display: none;
+}
+
 .title-main{
     font-size: 56px;
     font-weight: 700;
@@ -55,4 +59,61 @@
     display: flex;
     justify-content: center;
     gap: 32px;
+}
+
+@media (min-width: 1157px){
+
+    .hero{
+        padding-top: 100px;
+    }
+
+    .wrapper-hero{
+        position: relative;
+    }
+    
+    .wrapper-p-text-main-desc{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .wrapper-p-text-main-phone{
+        display: none;
+    }
+
+    .main-consultation-btn{
+        max-height: 59px;
+        align-items: center;
+    }
+    
+    .p-text-main-second{
+        display: block;
+    }
+
+    .p-text-main{
+        max-width: 480px;
+        font-size: 20px;
+    }
+
+    .title-main{
+        font-size: 160px;
+        max-width: 1920px;
+    }
+
+    .title-main-second{
+        font-size: 80px;
+    }
+
+    .img-bmw-hero{
+        position: relative;
+        margin-top: -180px;
+        opacity: 0.85;
+        margin-left: auto;
+        margin-right: 100px;
+    }
+
+    .wrapper-social-icon{
+        justify-content: left;
+        margin-top: -150px;
+    }
 }
