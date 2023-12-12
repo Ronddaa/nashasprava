@@ -45,3 +45,36 @@
     right: 0;
     margin: 20px 0;
 }
+
+@media (min-width: 1158px){
+
+    .img-car-face{
+        margin-bottom: -340px;
+    }
+
+    .title-our-plus{
+        font-size: 32px;
+    }
+
+    .wrapper-our-plus{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .li-our-plus:first-child{
+        margin-left: 540px;
+    }
+
+    .li-our-plus{
+        max-width: 520px;
+        height: 350px;
+    }
+
+    .p-text-our-plus{
+        font-size: 20px;
+    }
+    .img-car-back{
+        margin-top: -310px;
+    }
+
+}
