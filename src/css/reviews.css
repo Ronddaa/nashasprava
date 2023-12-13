@@ -50,3 +50,61 @@
     display: flex;
     margin: 0 auto;
 }
+
+.ul-reviews-comments:nth-child(2), 
+.ul-reviews-comments:nth-child(3), 
+.ul-reviews-comments:last-child {
+    display: none;
+}
+
+@media (min-width: 1158px){
+
+    .ul-reviews-comments:nth-child(2), 
+    .ul-reviews-comments:nth-child(3), 
+    .ul-reviews-comments:last-child {
+        display: flex;
+    }
+
+    .wrapper-comments-reviews{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .ul-reviews-comments:first-child { grid-area: 1 / 2 / 2 / 4; }
+    .ul-reviews-comments:nth-child(2) { grid-area: 2 / 1 / 3 / 3; }
+    .ul-reviews-comments:nth-child(3) { grid-area: 3 / 2 / 4 / 4; }
+    .ul-reviews-comments:last-child { grid-area: 4 / 2 / 5 / 4; }
+
+    .ul-reviews-comments{
+        flex-direction: row;
+    }
+
+    .title-user-name{
+        font-size: 32px;
+    }
+
+    .p-text-buyed-car{
+        font-size: 24px;
+    }
+
+    .text-user-comments{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .p-text-date{
+        font-size: 20px;
+    }
+
+    .li-reviews-comments{
+        max-width: 420px;
+    }
+
+    .sent-comments-btn{
+        margin: 0;
+    }
+
+}
