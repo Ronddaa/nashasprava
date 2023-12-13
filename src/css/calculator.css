@@ -10,6 +10,7 @@
     color: #fff;
     max-width: 180px;
     margin-bottom: 30px;
+    font-weight: 800;
 }
 
 .p-text-calculator{
@@ -46,6 +47,15 @@
     border: 0.5px solid;
 }
 
+.wrapper-total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+    opacity: 0.7;
+}
+
 .form-calculator-btn{
     background-color: #EED135;
     color: #000;
@@ -56,4 +66,46 @@
     border: 0;
     border-radius: 30px;
     padding: 12px 71px;
+}
+
+@media (min-width:1158px){
+    .title-calculator{
+        max-width: 100%;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .p-text-calculator{
+        font-size: 20px;
+    }
+
+    .wrapper-form-calculator{
+        max-width: 747px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding: 40px;
+    }
+
+    .title-form-calculator{
+        font-size: 32px;
+    }
+
+    .p-text-total-price{
+        font-size: 24px;
+    }
+
+    .form-calculator-btn{
+        max-width: 299px;
+        margin: 0 auto;
+    }
+
+    .wrapper-total-price{
+        margin: 40px 0;
+    }
+
+    .total-price{
+        font-size: 24px;
+    }
+
 }

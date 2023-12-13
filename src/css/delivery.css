@@ -37,7 +37,7 @@
     .ul-delivery{
         flex-direction: row;
         justify-content: space-between;
-        gap: 100px;
+        gap: 50px;
     }
 
     .li-delivery{
