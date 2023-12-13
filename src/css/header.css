@@ -21,6 +21,10 @@ header{
     display: none;
 }
 
+.header-icon-phone{
+    fill: #000;
+}
+
 @media (min-width: 1157px) {
 
     .img-logo-desc{
