@@ -17,3 +17,22 @@
     color: #000;
     margin-bottom: 40px;
 }
+
+@media (min-width: 1158px){
+    .p-text-our-station{
+        font-size: 20px;
+    }
+
+    .svg-social-icon{
+        width: 36px;
+        height: 36px;
+    }
+
+    .link-to-instagram{
+        font-size: 40px;
+        justify-content: right;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+}
