@@ -72,3 +72,14 @@
     margin-left: 20px;
 }
 
+@media (min-width:1158px) {
+    .wrapper-auction-title-img{
+        display: flex;
+        gap: 170px;
+    }
+
+    .title-auction{
+        font-size: 32px;
+    }
+}
+
