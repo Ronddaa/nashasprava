@@ -47,3 +47,48 @@
 .p-text-moments-buy{
     color: #fff;
 }
+
+@media (min-width: 1158px){
+    .title-moments-buy{
+        font-size: 48px;
+        margin-bottom: 80px;
+    }
+
+    .title-numbers{
+        font-size: 32px;
+        max-width: 88px;
+        max-height: 72px;
+    }
+
+    .p-text-moments-buy{
+        font-size: 20px;
+    }
+
+    .wrapper-moments-buy{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 80px;
+        grid-row-gap: 20px;
+    }
+
+    .li-moments-buy{
+        border: 0;
+        max-width: 470px;
+    }
+
+    .article-moments-buy{
+        gap: 40px;
+    }
+
+    .li-moments-buy:first-child { grid-area: 1 / 1 / 2 / 2; }
+    .li-moments-buy:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
+    .li-moments-buy:nth-child(3) { grid-area: 1 / 3 / 2 / 4; }
+    .li-moments-buy:nth-child(4) { grid-area: 2 / 3 / 3 / 4; }
+    .li-moments-buy:nth-child(5) { grid-area: 2 / 2 / 3 / 3; }
+    .li-moments-buy:nth-child(6) { grid-area: 2 / 1 / 3 / 2; }
+    .li-moments-buy:nth-child(7) { grid-area: 3 / 1 / 4 / 2; }
+    .li-moments-buy:last-child { grid-area: 3 / 2 / 4 / 3; }
+
+
+}
