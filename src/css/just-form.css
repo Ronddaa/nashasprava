@@ -19,3 +19,14 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media (min-width: 1158px){
+    .title-just-form{
+        font-size: 40px;
+    }
+
+    .just-form > .container > .main-consultation-btn{
+        padding: 20px 115px;
+        font-size: 14px;
+    }
+}
