@@ -32,3 +32,21 @@
     opacity: 0.2;
     border-radius: 20px;
 }
+
+@media (min-width: 1158px){
+    .ul-delivery{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .li-delivery{
+        padding: 40px;
+        width: 100%;
+    }
+
+    .p-text-delivery{
+        font-size: 20px;
+        margin-bottom: 140px;
+    }
+}
