@@ -25,6 +25,11 @@ header{
     fill: #000;
 }
 
+.burger-menu{
+    border: 0;
+    background-color: transparent;
+}
+
 @media (min-width: 1157px) {
 
     .img-logo-desc{
