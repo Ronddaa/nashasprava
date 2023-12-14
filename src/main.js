@@ -1,3 +1,5 @@
+import Swiper from 'swiper/bundle'; 
+
 'use strict'
 
 const swiperAuction = new Swiper('.swiper', {
