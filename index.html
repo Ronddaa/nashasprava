@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>nashaSprava</title>
+    
     
     <script type="module" crossorigin src="/nashasprava/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/nashasprava/assets/index-52bc257e.css">
+    <link rel="stylesheet" href="/nashasprava/assets/index-43b0b2a1.css">
   </head>
   <body>
     <header class="header">
@@ -429,9 +430,10 @@
                 <img src="/nashasprava/assets/auction-aa-16ed5a4e.webp" alt="AA" class="img-aa" width="94" height="60">
             </div>
         </div>
-        
-        <ul class="ul-car-list">
-            <li class="li-car-card">
+
+        <div class="swiper">
+        <ul class="ul-car-list swiper-wrapper">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">2015 volkswagen jetta SE</h4>
                 <ul class="ul-technical-car-stat">
@@ -456,7 +458,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -481,7 +483,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -506,7 +508,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -531,7 +533,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -556,7 +558,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -581,7 +583,7 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
+            <li class="li-car-card swiper-slide">
                 <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
@@ -606,8 +608,8 @@
 
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
-            <li class="li-car-card">
-                <img src="/nashasprava/assets/volkswagen-grey-7b25e2df.webp" alt="Car" class="img-car-card">
+            <li class="li-car-card swiper-slide">
+                <img src="/nashasprava/assets/bmx-x5-black-3ace0397.webp" alt="Car" class="img-car-card">
                 <h4 class="title-car-name">Volkswagen</h4>
                 <ul class="ul-technical-car-stat">
                     <li class="li-technical-car-stat">
@@ -632,8 +634,14 @@
                 <button class="main-consultation-btn">ЗАМОвити консультацію</button>
             </li>
         </ul>
+        </div>
 
-        <span class="span-scroll-car-card">----------------------</span>
+         <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
     </div>
 </section>
     <section class="just-form">
@@ -833,7 +841,7 @@
         </div>
     </div>
 </footer>
-
+    
     
   </body>
 </html>
