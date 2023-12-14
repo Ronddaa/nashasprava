@@ -4,6 +4,7 @@
     background-size:        cover;
     background-repeat:      no-repeat;
     padding: 40px 0;
+    z-index: -9;
 }
 
 .title-moments-buy{
@@ -22,6 +23,7 @@
 .li-moments-buy{
     padding: 30px 0;
     border-bottom: 2px dashed #FFF;
+    position: relative;
 }
 
 .li-moments-buy:last-child{
@@ -79,6 +81,69 @@
 
     .article-moments-buy{
         gap: 40px;
+    }
+
+    .article-moments-buy-1::after{
+        content: "";
+        width: 20%;
+        border-top: 1px dashed #fff;
+        position: absolute;
+        top: 70px;
+        left: 105%;
+    }
+
+    .article-moments-buy-2::after{
+        content: "";
+        width: 20%;
+        border-top: 1px dashed #fff;
+        position: absolute;
+        top: 70px;
+        left: 105%;
+    }
+
+    .article-moments-buy-3::after{
+        content: "";
+        height: 40%;
+        border-left: 1px dashed #fff;
+        position: absolute;
+        top: 68%;
+        left: 7%;
+    }
+
+    .article-moments-buy-5::after{
+        content: "";
+        width: 20%;
+        border-top: 1px dashed #fff;
+        position: absolute;
+        top: 70px;
+        left: 105%;
+    }
+
+    .article-moments-buy-6::after{
+        content: "";
+        width: 20%;
+        border-top: 1px dashed #fff;
+        position: absolute;
+        top: 70px;
+        left: 105%;
+    }
+
+    .article-moments-buy-6::before{
+        content: "";
+        height: 40%;
+        border-left: 1px dashed #fff;
+        position: absolute;
+        top: 68%;
+        left: 7%;
+    }
+
+    .article-moments-buy-7::after{
+        content: "";
+        width: 20%;
+        border-top: 1px dashed #fff;
+        position: absolute;
+        top: 70px;
+        left: 105%;
     }
 
     .li-moments-buy:first-child { grid-area: 1 / 1 / 2 / 2; }

@@ -46,10 +46,14 @@
     margin: 20px 0;
 }
 
+.svg-our-plus{
+    
+}
+
 @media (min-width: 1158px){
 
     .why-me > .container > .title-for-all-section{
-        margin-top: 2   00px;
+        margin-top: 200px;
         text-align: center;
     }
 
