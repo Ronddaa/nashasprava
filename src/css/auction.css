@@ -45,16 +45,25 @@
 
 .ul-technical-car-stat{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     color: #F1F1F1;
     padding: 0px 40px 0px 20px;
     margin-bottom: 30px;
+    gap: 15px;
 }
 
-.li-technical-car-stat{
+.oil{
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: space-between;
+}
+
+.li-oil-1{
+    font-weight: 700;
+}
+
+
+.li-oil-2{
+    opacity: 0.8;
 }
 
 .p-text-price-for-car{
@@ -64,6 +73,22 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 20px;
+}
+
+.wrapper-total-price{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.swiper-scrollbar{
+    cursor: pointer;
+    background-color: #000;
+}
+
+.swiper-slider .swiper-scrollbar-drag{
+    cursor: pointer;
+    background-color: #000;
 }
 
 @media (min-width:1158px) {
@@ -78,7 +103,46 @@
 
     .li-car-card{
         max-width: 48%;
-        margin-right: 50px;
+        margin-right: 40px;
+    }
+
+    .img-car-card{
+        width: 440px;
+        max-height: 344px;
+    }
+
+    .title-car-name{
+        font-size: 32px;
+    }
+
+    .ul-technical-car-stat{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 120px;
+        margin: 0 auto 40px;
+        padding: 0 30px;
+    }
+
+    .oil{
+        font-size: 20px;
+    }
+
+    .wrapper-total-price-calc{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .p-text-price-for-car{
+        font-size: 48px;
+    }
+
+    .wrapper-total-price-calc > .main-consultation-btn{
+        margin-right: 30px;
+        font-weight: 800;
+        padding: 20px 56px;
+        margin-bottom: 0;
     }
 }
 
