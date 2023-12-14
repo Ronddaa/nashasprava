@@ -113,6 +113,10 @@ header{
 
 @media (min-width: 1157px) {
 
+    .logo-link-desc{
+        margin-right: auto;
+    }
+
     .img-logo-desc{
         display: block;
         margin-right: 20px;
@@ -124,6 +128,8 @@ header{
 
     .header-nav{
         display: block;
+        margin: 0 auto;
+        margin-left: -20px;
     }
 
     .ul-nav{
