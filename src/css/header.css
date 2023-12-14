@@ -129,7 +129,7 @@ header{
     .header-nav{
         display: block;
         margin: 0 auto;
-        margin-left: -20px;
+        margin-left: -1px;
     }
 
     .ul-nav{
