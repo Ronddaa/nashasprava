@@ -47,6 +47,10 @@
     border: 0.5px solid;
 }
 
+.typeOil-label{
+    margin-bottom: -10px;
+}
+
 .wrapper-total-price{
     display: flex;
     justify-content: space-between;

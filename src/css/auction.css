@@ -75,5 +75,10 @@
     .title-auction{
         font-size: 32px;
     }
+
+    .li-car-card{
+        max-width: 48%;
+        margin-right: 50px;
+    }
 }
 

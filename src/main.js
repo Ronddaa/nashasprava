@@ -11,5 +11,11 @@ const swiperAuction = new Swiper('.swiper', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  }
+  },
+
+  // Scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+    draggable: true
+  },
 });
