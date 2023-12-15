@@ -54,3 +54,13 @@ checkWidthWindow();
 
 // Слушаем событие изменения размеров окна
 window.addEventListener('resize', checkWidthWindow);
+
+// Burger Menu - Open / Close
+
+document.getElementById("is-open-burger").addEventListener("click",function () {
+    document.getElementById("layout-burger-menu").classList.add("is-open")
+})
+
+document.getElementById("close-burger-menu").addEventListener("click",function () {
+    document.getElementById("layout-burger-menu").classList.remove("is-open")
+})

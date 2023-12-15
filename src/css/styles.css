@@ -52,3 +52,7 @@ section{
   }
 
 }
+
+.is-open{
+  display: block;
+}
