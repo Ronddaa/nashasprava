@@ -89,19 +89,30 @@
 
 .swiper-scrollbar{
     cursor: pointer;
-    background-color: #000;
 }
 
-.swiper-margin{
-    margin-bottom: 40px;
+.swiper-scrollbar .swiper-scrollbar-horizontal{
+    margin-top: 40px;
+    position: relative;
 }
 
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    position: relative;
+}
 
+.swiper-scrollbar-drag{
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
 
 @media (min-width:1158px) {
     .wrapper-auction-title-img{
         display: flex;
         gap: 170px;
+    }
+
+    .li-car-card{
+        border-radius: 30px;
     }
 
     .title-auction{
