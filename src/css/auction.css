@@ -86,10 +86,11 @@
     background-color: #000;
 }
 
-.swiper-slider .swiper-scrollbar-drag{
-    cursor: pointer;
-    background-color: #000;
+.swiper-margin{
+    margin-bottom: 40px;
 }
+
+
 
 @media (min-width:1158px) {
     .wrapper-auction-title-img{
