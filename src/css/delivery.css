@@ -33,7 +33,7 @@
     border-radius: 20px;
 }
 
-@media (min-width: 1158px){
+@media (min-width: 1157px){
     .ul-delivery{
         flex-direction: row;
         justify-content: space-between;

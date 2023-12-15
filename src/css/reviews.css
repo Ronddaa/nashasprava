@@ -9,6 +9,7 @@
     background-color: #FFDE2C;
     border-radius: 30px;
     padding: 30px 20px;
+    width: 100%;
 }
 
 .title-user-name{
@@ -34,6 +35,11 @@
 .img-user-comments{
     border-radius: 30px;
     margin-bottom: 40px;
+    width: 100%;
+    max-height: 364px;
+    max-width: 440px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .sent-comments-btn{
@@ -57,7 +63,7 @@
     display: none;
 }
 
-@media (min-width: 1158px){
+@media (min-width: 1157px){
 
     .ul-reviews-comments:nth-child(2), 
     .ul-reviews-comments:nth-child(3), 
@@ -74,12 +80,22 @@
     }
 
     .ul-reviews-comments:first-child { grid-area: 1 / 2 / 2 / 4; }
-    .ul-reviews-comments:nth-child(2) { grid-area: 2 / 1 / 3 / 3; }
+    .ul-reviews-comments:nth-child(2) { grid-area: 2 / 1 / 3 / 3; 
+    margin-left: 155px;}
     .ul-reviews-comments:nth-child(3) { grid-area: 3 / 2 / 4 / 4; }
     .ul-reviews-comments:last-child { grid-area: 4 / 2 / 5 / 4; }
 
     .ul-reviews-comments{
         flex-direction: row;
+    }
+
+    .li-reviews-comments{
+        position: relative;
+    }
+
+    .li-reviews-comments-black{
+        background-color: #000;
+        color: #fff;
     }
 
     .title-user-name{
@@ -97,6 +113,8 @@
 
     .p-text-date{
         font-size: 20px;
+        position: relative;
+        bottom: 0;
     }
 
     .li-reviews-comments{

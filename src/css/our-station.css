@@ -48,7 +48,7 @@
 .li-sto-photo:nth-child(3) { grid-area: 2 / 2 / 3 / 3; }
 .li-sto-photo:nth-child(4) { grid-area: 3 / 1 / 4 / 3; }
 
-@media (min-width: 1158px){
+@media (min-width: 1157px){
     .p-text-our-station{
         font-size: 20px;
     }

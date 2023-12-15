@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 1158px){
+@media (min-width: 1157px){
     .title-just-form{
         font-size: 40px;
     }

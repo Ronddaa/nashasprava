@@ -105,7 +105,7 @@
     margin-top: 40px;
 }
 
-@media (min-width:1158px) {
+@media (min-width:1157px) {
     .wrapper-auction-title-img{
         display: flex;
         gap: 170px;
