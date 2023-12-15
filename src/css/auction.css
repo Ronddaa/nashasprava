@@ -81,6 +81,12 @@
     gap: 30px;
 }
 
+.swiper-slide  img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-scrollbar{
     cursor: pointer;
     background-color: #000;
@@ -100,11 +106,6 @@
 
     .title-auction{
         font-size: 32px;
-    }
-
-    .li-car-card{
-        max-width: 48%;
-        margin-right: 40px;
     }
 
     .img-car-card{
