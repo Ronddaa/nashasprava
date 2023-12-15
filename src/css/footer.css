@@ -44,3 +44,32 @@ footer{
     font-size: 12px;
     opacity: 0.7;
 }
+
+@media (min-width:1157px){
+
+    .wrapper-footer{
+        display: flex;
+    }
+
+    .wrapper-nav-footer{
+        gap: 50px;
+    }
+
+    .logo-link-footer{
+        margin-right: auto;
+    }
+
+    .nav-link-footer{
+        font-size: 20px;
+    }
+
+    .ul-first-nav-footer{
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .ul-second-nav-footer{
+        flex-direction: row;
+        gap: 50px;
+    }
+}
