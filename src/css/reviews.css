@@ -56,6 +56,11 @@
     padding: 13px 65px;
     display: flex;
     margin: 0 auto;
+    transition: box-shadow 250ms cubic-bezier(0, 0, 0, 1);
+}
+
+.sent-comments-btn:hover, .sent-comments-btn:focus{
+    box-shadow:         1px 2px 21px 1px rgba(0, 0, 0, 0.445);
 }
 
 .ul-reviews-comments:nth-child(2), 

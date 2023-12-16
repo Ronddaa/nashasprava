@@ -44,6 +44,10 @@
     margin-bottom: 20px;
 }
 
+.contact-us-btn:hover, .contact-us-btn:focus{
+    box-shadow:         1px 2px 21px 1px rgb(255, 255, 255);
+}
+
 .link-contacts-3{
     display: none;
 }

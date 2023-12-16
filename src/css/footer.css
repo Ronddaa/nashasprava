@@ -21,6 +21,10 @@ footer{
     color: #fff;
 }
 
+.nav-link-footer:hover, .nav-link-footer:focus{
+    text-decoration: underline;
+}
+
 .ul-first-nav-footer{
     display: flex;
     flex-direction: column;

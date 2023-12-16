@@ -49,4 +49,12 @@
         font-size: 20px;
         margin-bottom: 140px;
     }
+
+    .delivery-arrow-icon{
+        transition: transform 250ms cubic-bezier(0, 0, 0, 2);
+    }
+
+    .delivery-arrow-icon:hover, .delivery-arrow-icon:focus{
+        transform: rotate(90deg);
+    }
 }

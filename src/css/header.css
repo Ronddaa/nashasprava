@@ -150,6 +150,24 @@ header{
         border-radius: 30px;
     }
 
+    .a-nav-link:hover, .a-nav-link:focus{
+        text-decoration: underline;
+    }
+
+    .a-phone-link:focus,
+    .a-phone-link:hover{
+        color: #fff;
+        background-color: #000;
+    }
+
+    .a-phone-link:hover > .header-icon-phone{
+        fill: #fff;
+    }
+
+    .a-phone-link:focus > .header-icon-phone{
+        fill: #fff;
+    }
+
     .burger-menu{
         display: none;
     }
