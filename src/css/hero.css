@@ -100,12 +100,13 @@
     }
 
     .title-main{
-        font-size: 200px;
+        font-size: 160px;
         max-width: 1920px;
     }
 
     .title-main-second{
         font-size: 80px;
+        z-index: 555;
     }
 
     .img-bmw-hero{

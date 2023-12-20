@@ -41,13 +41,12 @@
     }
 
     .li-delivery{
-        padding: 40px;
-        width: 100%;
+        padding: 40px 20px;
+        width: calc((100% - 200px) / 3);
     }
 
     .p-text-delivery{
         font-size: 20px;
-        margin-bottom: 140px;
     }
 
     .delivery-arrow-icon{
