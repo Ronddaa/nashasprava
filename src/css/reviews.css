@@ -119,10 +119,8 @@
     .p-text-date{
         font-size: 20px;
         margin-top: auto;
-    }
-
-    .li-reviews-comments{
-        max-width: 420px;
+        position: absolute;
+        bottom: 11%;
     }
 
     .sent-comments-btn{

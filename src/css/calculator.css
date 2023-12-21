@@ -43,12 +43,19 @@
 .calc-form-input{
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 0.5px solid;
 }
 
-.typeOil-label{
-    margin-bottom: -10px;
+.p-select{
+    margin-bottom: -12px;
+}
+
+.calc-form-input-select{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px 5px;
 }
 
 .wrapper-total-price{
