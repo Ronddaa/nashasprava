@@ -2,6 +2,7 @@
     position: relative;
     padding-bottom: 180px;
     margin-bottom: 160px;
+    z-index: 10;
 }
 
 .wrapper-our-plus{
@@ -46,8 +47,8 @@
     margin: 20px 0;
 }
 
-.svg-our-plus{
-    
+.svg-our-plus-car-service{
+    margin-top: -20px;
 }
 
 @media (min-width: 1157px){
@@ -84,8 +85,6 @@
     .li-our-plus:nth-child(5) { grid-area: 2 / 3 / 3 / 4; }
     .li-our-plus:nth-child(6) { grid-area: 3 / 1 / 4 / 2; }
     .li-our-plus:last-child { grid-area: 3 / 2 / 4 / 3; }
-
-    
 
     .p-text-our-plus{
         font-size: 20px;

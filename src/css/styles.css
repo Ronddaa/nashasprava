@@ -20,6 +20,11 @@
 @import url('./reviews.css');
 @import url('./contact.css');
 
+.lineBackG{
+  position: absolute;
+  z-index: -55;
+}
+
 /* mobile container */
 .container{
     max-width: 375px;
@@ -39,6 +44,7 @@ body{
 
 section{
   margin-bottom: 50px;
+  position: relative;
 }
 
 @media (min-width: 1157px){
