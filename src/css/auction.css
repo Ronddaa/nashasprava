@@ -1,3 +1,7 @@
+.auction{
+    z-index: 5;
+}
+
 .auction > .container > .title-for-all-section{
     text-align: right;
 }

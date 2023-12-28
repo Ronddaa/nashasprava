@@ -2,7 +2,7 @@
     background-image: url(../img/main-background.webp);
     background-position:    center;
     background-size:        cover;
-    background-repeat:      no-repeat;
+    background-repeat:      repeat;
     padding: 40px 0;
     z-index: 5;
 }
