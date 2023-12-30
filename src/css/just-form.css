@@ -4,6 +4,8 @@
     background-size:        cover;
     background-repeat:      no-repeat;
     padding: 40px 15px 30px;
+    position: relative;
+    z-index: 5;
 }
 
 .title-just-form{

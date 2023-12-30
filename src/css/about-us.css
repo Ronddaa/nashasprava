@@ -24,12 +24,12 @@
 
 .img-about-us-team-1{
 top: 50px;
-z-index: 2;
+z-index: 20;
 
 }
 
 .img-about-us-team-2{
-    right: 0;
+    right: 10;
 }
 
 @media (min-width: 1157px){

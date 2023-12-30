@@ -1,3 +1,8 @@
+.reviews{
+    position: relative;
+    z-index: 5;
+}
+
 .ul-reviews-comments{
     display: flex;
     flex-direction: column;

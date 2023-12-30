@@ -2,6 +2,12 @@
     z-index: 5;
 }
 
+.lineBackGDown{
+    position: absolute;
+    z-index: -10;
+    max-height: 400%;
+}
+
 .auction > .container > .title-for-all-section{
     text-align: right;
 }
