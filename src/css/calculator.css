@@ -54,11 +54,11 @@
 }
 
 .calc-form-input-select{
+    -webkit-appearance: none;
     outline: none;
     border: 1px solid #000;
     border-radius: 15px;
     padding: 10px 5px;
-    -webkit-appearance: none;
 }
 
 ::-webkit-keygen-select{
