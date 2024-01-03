@@ -51,6 +51,7 @@
 .mapIFrame{
     max-width: 290px;
     max-height: 280px;
+    border-radius: 30px;
 }
 
 .contact-us-btn:hover, .contact-us-btn:focus{
@@ -83,7 +84,6 @@
     .mapIFrame{
         max-width: 520px;
         max-height: 320px;
-        border-radius: 30px;
     }
 
     .contact-us-btn{
