@@ -30,6 +30,7 @@ z-index: 20;
 
 .img-about-us-team-2{
     right: 10px;
+    z-index: 19;
 }
 
 @media (min-width: 1157px){
