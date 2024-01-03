@@ -60,6 +60,13 @@
     padding: 10px 5px;
 }
 
+::-webkit-keygen-select{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+
 .wrapper-total-price{
     display: flex;
     justify-content: space-between;
