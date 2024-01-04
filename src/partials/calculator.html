@@ -8,10 +8,10 @@
             
             <form class="form-calculator">
                 <label>Ціна автомобіля (USD)
-                    <input class="calc-form-input" type="number">
+                    <input class="calc-form-input" type="number" id="priceForCar">
                 </label>
                 <label>Рік випуску
-                    <input class="calc-form-input" type="number" min="2010" max="2024" placeholder="2024">
+                    <input class="calc-form-input" type="number" id="carOld" min="2010" max="2024" placeholder="2024">
                 </label>
                 <p class="p-select">Тип двигуна</p>
                 <select class="calc-form-input-select" name="select-calc" id="typeOil">
@@ -21,7 +21,7 @@
                 </select>
                 
                 <label>Об’єм двигуна (см3) / Ємність батареї (кВт) 
-                    <input class="calc-form-input" type="number">
+                    <input class="calc-form-input" type="number" id="carValueE">
                 </label>
                 <div class="wrapper-total-price">
                     <span class="p-text-total-price">загальна сума:</span>

@@ -64,3 +64,10 @@ document.getElementById("is-open-burger").addEventListener("click",function () {
 document.getElementById("close-burger-menu").addEventListener("click",function () {
     document.getElementById("layout-burger-menu").classList.remove("is-open")
 })
+
+const priceForCar = document.querySelector('#priceForCar');
+const carOld = document.querySelector('#carOld');
+const carValueE = document.querySelector('#carValueE');
+const totalPrice = document.querySelector('#totalPriceID');
+
+
