@@ -1,9 +1,9 @@
 header{
-    padding-top: 15px;
     background-image: linear-gradient(to bottom, rgb(174 174 174 / 70%), rgb(255 255 255 / 50%));
     position: sticky;
     top: 0;
-    background-color: #d8d8d8;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
     z-index: 555;
 }
 
