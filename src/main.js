@@ -65,9 +65,9 @@ document.getElementById("close-burger-menu").addEventListener("click",function (
     document.getElementById("layout-burger-menu").classList.remove("is-open")
 })
 
-const priceForCar = document.querySelector('#priceForCar');
-const carOld = document.querySelector('#carOld');
-const carValueE = document.querySelector('#carValueE');
+const priceForCar = document.querySelector('#priceForCar').value;
+const carOld = document.querySelector('#carOld').value;
+const carValueE = document.querySelector('#carValueE').value;
 const totalPrice = document.querySelector('#totalPriceID');
 
 
