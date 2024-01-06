@@ -78,3 +78,9 @@ document.getElementById('main-consultation-btn-hero-desc').addEventListener('cli
 document.getElementById('wrapperModalWindowID').addEventListener('click', function () {
   document.getElementById('wrapperModalWindowID').classList.remove('is-open')
 })
+
+document.querySelectorAll('.elementInForm').forEach(function (input) {
+  input.addEventListener('click', function (event) {
+    event.stopPropagation();
+  });
+});
