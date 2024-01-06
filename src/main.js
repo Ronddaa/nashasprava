@@ -71,6 +71,10 @@ document.getElementById('main-consultation-btn-hero').addEventListener('click', 
   document.getElementById('wrapperModalWindowID').classList.add('is-open')
 })
 
+document.getElementById('main-consultation-btn-hero-desc').addEventListener('click', function () {
+  document.getElementById('wrapperModalWindowID').classList.add('is-open')
+})
+
 document.getElementById('wrapperModalWindowID').addEventListener('click', function () {
   document.getElementById('wrapperModalWindowID').classList.remove('is-open')
 })
