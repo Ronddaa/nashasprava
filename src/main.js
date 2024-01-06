@@ -65,9 +65,12 @@ document.getElementById("close-burger-menu").addEventListener("click",function (
     document.getElementById("layout-burger-menu").classList.remove("is-open")
 })
 
-const priceForCar = document.querySelector('#priceForCar').value;
-const carOld = document.querySelector('#carOld').value;
-const carValueE = document.querySelector('#carValueE').value;
+// modalWindow - Open / Close
 
+document.getElementById('main-consultation-btn-hero').addEventListener('click', function () {
+  document.getElementById('wrapperModalWindowID').classList.add('is-open')
+})
 
-
+document.getElementById('wrapperModalWindowID').addEventListener('click', function () {
+  document.getElementById('wrapperModalWindowID').classList.remove('is-open')
+})
