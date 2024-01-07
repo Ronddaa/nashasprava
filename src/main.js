@@ -55,6 +55,8 @@ checkWidthWindow();
 // Слушаем событие изменения размеров окна
 window.addEventListener('resize', checkWidthWindow);
 
+const apiUrl = 'http://localhost:8080/backend';
+
 // Burger Menu - Open / Close
 
 document.getElementById("is-open-burger").addEventListener("click",function () {
