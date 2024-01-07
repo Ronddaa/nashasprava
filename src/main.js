@@ -92,3 +92,17 @@ document.querySelectorAll('.elementInForm').forEach(function (input) {
     event.stopPropagation();
   });
 });
+
+document.getElementById('btnCalculate').onclick = calculateTotalPrice;
+
+function calculateTotalPrice() {
+  const priceForCar = parseFloat(document.querySelector('#priceForCar').value);
+  const carOld = parseFloat(document.querySelector('#carOld').value) || 0;
+  const typeOil = parseFloat(document.querySelector('#typeOil').value) || 0;
+  const carValueE = parseFloat(document.querySelector('#carValueE').value) || 0;
+  const TotalPriceID = document.querySelector('#totalPriceID');
+  let sum = ((priceForCar + 800 + 1600) * 0.32 + (50 * 3.6 * 6) * 1.1) + priceForCar;
+  console.log(sum);
+  TotalPriceID.innerText = sum.toFixed(2) + '$';
+}
+
