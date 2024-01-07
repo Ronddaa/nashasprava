@@ -75,6 +75,14 @@ document.getElementById('main-consultation-btn-hero-desc').addEventListener('cli
   document.getElementById('wrapperModalWindowID').classList.add('is-open')
 })
 
+document.getElementById('main-consultation-btn-justForm').addEventListener('click', function () {
+  document.getElementById('wrapperModalWindowID').classList.add('is-open')
+})
+
+document.getElementById('main-consultation-btn-auction').addEventListener('click', function () {
+  document.getElementById('wrapperModalWindowID').classList.add('is-open')
+})
+
 document.getElementById('wrapperModalWindowID').addEventListener('click', function () {
   document.getElementById('wrapperModalWindowID').classList.remove('is-open')
 })
