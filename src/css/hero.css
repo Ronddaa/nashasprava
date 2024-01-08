@@ -64,6 +64,8 @@
     display: flex;
     justify-content: center;
     gap: 32px;
+    position: relative;
+    z-index: 70;
 }
 
 @media (min-width: 1157px){
