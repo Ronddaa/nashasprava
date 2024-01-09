@@ -105,7 +105,7 @@ function calculateTotalPrice() {
   const TotalPriceID = document.querySelector('#totalPriceID');
 
 
-  let sum = ((priceForCar + 800 + 1600) * 0.32 + (50 * 3.6 * (2024 - carOld)) * 1.1) + priceForCar;
+  let sum = ((priceForCar + 800 + 1600) * 0.32 + (150 * carValueE * (2024 - carOld)) * 1.1) + priceForCar;
   console.log(sum);
   TotalPriceID.innerText = sum.toFixed(2) + '$';
 }
