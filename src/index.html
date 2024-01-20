@@ -38,10 +38,22 @@
         <input class="inputInModalWindow" type="text" id="typeCarForm" placeholder="Тип автомобіля">
         <input class="inputInModalWindow" type="text" id="priceCarForm" placeholder="Кінцева вартість">
         <p class="pTextModalWindow">*Надсилаючи форму, Ви даєте згоду на обробку особистих даних</p>
-        <button type="submit" class="btnModalWindowSent">залишити заявку</button>
+        <button type="submit" class="btnModalWindowSent" id="sendbtn">залишити заявку</button>
       </form>
     </div>
     <script type="module" src="swiper-bundle.min.js" defer></script>
     <script type="module" src="main.js" defer></script>
+
+    <script>
+      sendbtn.onclick = function() {
+        const tht = 
+        "https://api.telegram.org/bot6931988657:AAF57fde9rGPGPO8vhtYZOz72rA92h1ITyw/sendMessage?chat_id=563174998&parse_mode=html&text=Ім'я:"
+        +userNameForm.value
+        +"%0AНомер телефону: "+userPhoneForm.value
+        +"%0AКінцева вартість: "+priceCarForm.value;
+        fetch(tht);
+        alert('Дякуємо!');
+      };
+  </script>
   </body>
 </html>
