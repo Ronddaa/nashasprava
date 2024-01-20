@@ -33,14 +33,27 @@
       <form class="modalWindow elementInForm">
         <h2 class="titleModalWindow">отримайте безкоштовну консультацію</h2>
         <p class="pTextModalWindow">Залишіть свої дані та побажання щодо автомобіля і наш менеджер зв’яжеться з Вами</p>
-        <input class="inputInModalWindow" type="text" id="userNameForm" placeholder="Ім’я">
-        <input class="inputInModalWindow" type="text" id="userPhoneForm" placeholder="Номер телефону">
-        <input class="inputInModalWindow" type="text" id="typeCarForm" placeholder="Тип автомобіля">
-        <input class="inputInModalWindow" type="text" id="priceCarForm" placeholder="Кінцева вартість">
+        <input class="inputInModalWindow" type="text" id="userNameForm" placeholder="Ім’я" required>
+        <input class="inputInModalWindow" type="text" id="userPhoneForm" placeholder="Номер телефону" required>
+        <input class="inputInModalWindow" type="text" id="typeCarForm" placeholder="Тип автомобіля" required>
+        <input class="inputInModalWindow" type="text" id="priceCarForm" placeholder="Кінцева вартість" required>
         <p class="pTextModalWindow">*Надсилаючи форму, Ви даєте згоду на обробку особистих даних</p>
-        <button type="submit" class="btnModalWindowSent">залишити заявку</button>
+        <button id="sendbtn" type="submit" class="btnModalWindowSent">залишити заявку</button>
       </form>
     </div>
+    <script>
+      sendbtn.onclick = function() {
+        const tht = 
+        "https://api.telegram.org/bot6931988657:AAF57fde9rGPGPO8vhtYZOz72rA92h1ITyw/sendMessage?chat_id=563174998&parse_mode=html&text=Ім'я:"
+        +userNameForm.value
+        +"%0AНомер телефону: "+userPhoneForm.value
+        +"%0AТип автомобіля: "+typeCarForm.value
+        +"%0AКінцева вартість: "+priceCarForm.value;
+        fetch(tht);
+        alert('Дякуємо!');
+      };
+  </script>
+
     <script type="module" src="swiper-bundle.min.js" defer></script>
     <script type="module" src="main.js" defer></script>
   </body>
